@@ -1,6 +1,6 @@
 # EasyNAS
 
-![WebGUI](https://gitee.com/amyaz/easynas/raw/master/easynas.jpg)
+![WebGUI](https://raw.githubusercontent.com/amyaz/EasyNAS/master/easynas.jpg)
 
 #### 项目介绍
 EasyNAS 是面向家庭和小型办公室的存储管理系统。它使用 openSUSE Leap 作为基础，并采用 Btrfs 高级文件系统。EasyNAS 通过基于 web 的界面进行管理，并提供文件系统在线增长、快照、写时复制等特性。
@@ -14,10 +14,10 @@ EasyNAS 地址：http://www.easynas.org/
 ```
 sudo zypper ref
 sudo zypper in git ca-certificates
-git clone https://gitee.com/amyaz/easynas.git
+git clone https://github.com/amyaz/EasyNAS.git
 ```
 4.安装中文包：
 ```
-sudo cp easynas/easynas/lang/ /easynas/
+sudo cp EasyNAS/easynas/lang/ /easynas/
 ```
 在 WebGUI 中选择 `Chinese Simplified`。
